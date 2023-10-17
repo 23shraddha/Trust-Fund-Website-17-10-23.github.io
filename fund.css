@@ -1,0 +1,426 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    width: 75%;
+    margin: 0 auto;
+}
+
+.cases{
+    text-align: right;
+    margin: 20px 50px 5px 50px;
+    background-color: rgb(242, 242, 242);
+    padding: 5px;
+    border-bottom: 1px solid lightgray;
+}
+
+.cases p{
+    font-size: 14px;
+    padding-right: 50px;
+    font-weight: 500;
+    color: rgb(81, 80, 80);
+}
+
+.cases span{
+    color: orange;
+}
+
+.heading{
+    text-align: right;
+    margin: 0px 50px 5px 50px;
+    padding: 40px 150px 10px 0; 
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);  
+}
+
+.heading .corner{
+    position: relative;
+    background-color: orange;
+    height: 70px;
+    width: 250px;
+    text-align: center;
+    margin-top: -50px;
+    margin-bottom: -20px;
+}
+
+.heading .corner::before{
+    content: "";
+    position: absolute;
+    top: 0; right: 0;
+    border-bottom: 20px solid rgb(255, 123, 0);
+    /* box-shadow: 0px 1px 5px 1px orangered; */
+    border-right: 20px solid white;
+    width: 0;
+
+}
+
+.heading .corner h2{
+    font-family: cursive;
+    font-size: 20px;
+    padding-top: 20px;
+    color: white;
+}
+
+.heading p{
+    font-size: 13px;
+    padding-right: 50px;
+    font-weight: 600;
+    color: rgb(81, 80, 80);
+}
+
+.heading span{
+    color: black;
+    font-weight: 400;
+}
+
+main{
+    width: 65%;
+    margin: 10px auto;
+    padding-bottom: 5px;
+    box-shadow: 0 3px 5px rgb(0 0 0 / 0.2);
+}
+
+main .nav{
+    background-color: orange;
+    color: white;
+    padding: 6px 0px;  
+    
+}
+
+.nav .navspan{
+    font-weight: 500;
+    border-left: 2px solid rgb(244, 192, 96);
+    font-size: 12px;
+    padding: 7px 5px 7px 6px;
+    
+}
+
+.voice{
+    margin: 5px 0;
+    display: flex;
+    height: 270px;
+}
+
+.left{
+    width: 71%;
+    border: 1px solid lightgray;
+    margin-right: 5px;
+    position: relative;
+    box-shadow: 0px 0px 20px 1px #dadada inset;
+    background-image: url(https://www.kidsworldfun.com/images/study-tips/studying-girl.jpg);
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-size: cover;
+}
+
+.left img{
+    width: 100%;
+   height: 100%;
+}
+
+.msg{
+    position: absolute;
+    top: 30px;
+    left: 20px;
+}
+
+.msg .span1{
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(204, 204, 204);
+}
+
+.msg .span2{
+    font-size: 50px;
+    font-weight: 600;
+    color: orange;
+}
+
+.right{
+    font-size: 14px;
+    width:29%;
+    background-color: rgb(74, 74, 74);
+    color: white;
+}
+
+.topnav{
+    display: flex;  
+}
+
+.tn1{
+    width: 40%;
+    padding: 5px 15px;
+}
+
+.tn2{
+    padding: 5px 20px;
+    width: 70%;
+    background-color: rgba(203, 202, 202, 0.412);
+    
+}
+
+.topcontent{
+    margin: 20px ;
+}
+
+.topcontent h2{
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.topcontent p{
+    text-shadow: 2px 2px 4px #000000;
+    line-height: 20px;
+    width: 90%;
+}
+
+button{
+    padding: 5px 15px;
+    margin-top: 10px;
+    background-color: orange;
+    border: 1px solid orange;
+    color: white;
+    font-weight: 600;
+    box-shadow: 0 8px 5px -3px rgba(0, 0, 0, 0.5);  
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+.div {
+    width: 32.5%;
+    border: 1px solid lightgray;
+    position: relative;
+}
+
+.div img{
+    width: 100%;
+    height: 100px;
+}
+
+.content{
+    position: absolute;
+    top: 10px;
+    padding: 3px 10px; 
+}
+
+.content h5{
+    color: orange;
+    font-weight: 700;
+    font-size: 15px;
+    padding-bottom: 5px;
+}
+
+.content p{
+    font-size: 12px;
+    width: 60%;
+    line-height: 15px;
+    color: rgb(81, 80, 80);
+}
+
+.content a{
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 600;
+    color: rgb(81, 80, 80);
+}
+
+.main2{
+    display: flex;
+    width: 65%;
+    margin: 10px auto 0 auto;
+    padding-bottom: 5px;
+    border-bottom: 1px solid lightgray;
+    width: 70%;
+    padding: 0 40px 30px 40px;
+    /* box-shadow: 0 3px 5px rgb(0 0 0 / 0.2); */
+}
+
+.map{
+    display: flex;
+}
+
+.main2-left{
+    width: 66.5%;
+}
+
+.main2-left p{
+    color: orange;
+    line-height: 22px;
+    padding: 5px 5px 15px 5px;
+}
+
+.maps img{
+    width: 100%;
+}
+
+.maps{
+    width: 40%;
+    padding: 5px;
+}
+
+
+
+.watch h5{
+    color: orange;
+    font-weight: 700;
+    font-size: 15px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+
+.watch p{
+    font-size: 13px;
+    line-height: 16px;
+    word-spacing: 5px;
+    color: rgb(81, 80, 80);
+    padding-bottom: 5px;
+}
+
+.watch a{
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 600;
+    padding-top: 7px;
+    padding-left: 5px;
+    color: rgb(81, 80, 80);
+}
+
+.where h5{
+    color: orange;
+    font-weight: 700;
+    font-size: 15px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+
+.where span{
+    font-size: 12px;
+    font-weight: 600;
+    color: rgb(81, 80, 80);
+}
+
+.main2-right{
+    width: 32.5%;
+    margin-left: 12px;
+    border-left: 1px dotted lightgray;
+    padding: 3px 20px; 
+}
+
+.main2-right img{
+    width: 100%;
+}
+
+.main2-right h5{
+    color: orange;
+    font-weight: 700;
+    font-size: 15px;
+    padding-bottom: 5px;
+}
+
+.main2-right p{
+    font-size: 13px;
+    line-height: 16px;
+    word-spacing: 5px;
+    color: rgb(81, 80, 80);
+    padding-bottom: 5px;
+}
+
+.main2-right span{
+    font-size: 12px;
+    font-weight: 600;
+    color: rgb(81, 80, 80);
+}
+
+footer{
+    width: 70%;
+    background-color: rgb(242, 242, 242);
+    margin: 0 auto;
+    padding: 35px;
+}
+
+footer h3{
+    color: blue;
+    padding-bottom: 10px;
+}
+
+footer .bottom{
+    display: flex;
+  
+}
+
+.bottom div{
+    border: 1px solid lightgray;
+    width: 15%;
+    height: 80px;
+    margin-right: 10px;
+}
+
+.bottom .empty{
+    background-color: white;
+}
+
+.bottom div img{
+    width: 100%;
+    height: 100%;
+}
+
+.bottom .policy{
+    width: 50%;
+    padding: 0 10px;
+    border: none;
+}
+
+.bottom .policy p,.pspan{
+    font-size: 14px;
+    line-height: 14px;
+    word-spacing: 5px;
+    color: rgb(125, 125, 125);
+    padding-bottom: 5px;
+}
+.bottom .policy .icons{
+    border: none;
+    position: relative;
+    padding-top: 5px;
+}
+.bottom .policy .icons img{
+    height: 30px;
+    width: 30px;
+}
+
+.bottom .policy .icons .share{
+    border: 1px solid gray;
+    width: 120px;
+    height: 32px;
+    position: absolute;
+    align-items: center;
+    display: flex;
+    left: 100px;
+    bottom: 43px;
+    padding-left: 10px;
+    border-radius: 5px;
+    background-color: rgb(226, 226, 226);
+    color: rgb(81, 80, 80);
+    font-size: 14px;
+   
+}
+
+.bottom .policy .icons .share img{
+    height: 23px;
+    width: 23px;
+}
+
+
+
+
+
+
+
+
